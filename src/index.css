@@ -26,50 +26,23 @@ code {
   box-shadow: 0px -2px #FFFFFF; 
 }
 
-#background {
-  margin: auto;
-  position: absolute;
-  height: 102vh;
-  width: 100%;
-  overflow: hidden;
-  background-color: #f45f5f;
-  border: solid #fff 12px; 
-}
-
-.right-side {
-  background-color: rgba(255,255,255,0.4);
-}
-
-.sarah-title {
-  font-family: 'Great Vibes', cursive;
-}
-
-@-webkit-keyframes float {
-  0% {
-      background: #2E83AF;
-      top: 100%; 
-    }
-  100% {
-    background: #81FFE4;
-    top: -5%; } }
-@keyframes float {
-  0% {
-    background: #2E83AF;
-    top: 100%; }
-  100% {
-    background: #81FFE4;
-    top: -5%; } }
 @-webkit-keyframes float {
   0% {
     background: #2E83AF;
-    top: 100%; }
+    top: 100%; 
+  }
   100% {
     background: #81FFE4;
-    top: -5%; } }
+    top: -5%; 
+  } 
+}
 @keyframes float {
   0% {
     background: #2E83AF;
-    top: 100%; }
+    top: 100%; 
+  }
   100% {
     background: #81FFE4;
-    top: -5%; } }
+    top: -5%; 
+  } 
+}

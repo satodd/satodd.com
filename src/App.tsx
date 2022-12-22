@@ -34,7 +34,7 @@ function App() {
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"></link>
       </Helmet>
       <div className='relative h-screen w-full overflow-hidden bg-coral'>
-        <div className="absolute inset-0 -z-[1]"></div>
+        <div id="background" className="absolute inset-0 z-0"></div>
         <header className='absolute top-0 p-8 bg-white'>
           <h1 className="pb-1 text-6xl text-coral font-bold">Sarah Todd</h1>
           <p className='text-2xl'>Frontend Developer</p>
