@@ -1,6 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Lato', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +12,64 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Lato', sans-serif, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bubble {
+  border-radius: 50%;
+  position: relative;
+  -webkit-animation-name: float;
+  -webkit-animation-count: infinite;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  box-shadow: 0px -2px #FFFFFF; 
+}
+
+#background {
+  margin: auto;
+  position: absolute;
+  height: 102vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f45f5f;
+  border: solid #fff 12px; 
+}
+
+.right-side {
+  background-color: rgba(255,255,255,0.4);
+}
+
+.sarah-title {
+  font-family: 'Great Vibes', cursive;
+}
+
+@-webkit-keyframes float {
+  0% {
+      background: #2E83AF;
+      top: 100%; 
+    }
+  100% {
+    background: #81FFE4;
+    top: -5%; } }
+@keyframes float {
+  0% {
+    background: #2E83AF;
+    top: 100%; }
+  100% {
+    background: #81FFE4;
+    top: -5%; } }
+@-webkit-keyframes float {
+  0% {
+    background: #2E83AF;
+    top: 100%; }
+  100% {
+    background: #81FFE4;
+    top: -5%; } }
+@keyframes float {
+  0% {
+    background: #2E83AF;
+    top: 100%; }
+  100% {
+    background: #81FFE4;
+    top: -5%; } }
