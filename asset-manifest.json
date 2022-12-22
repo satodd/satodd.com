@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ad14902.css",
-    "main.js": "/static/js/main.7c9552b2.js",
-    "static/js/787.cc50d865.chunk.js": "/static/js/787.cc50d865.chunk.js",
-    "index.html": "/index.html",
-    "main.8ad14902.css.map": "/static/css/main.8ad14902.css.map",
-    "main.7c9552b2.js.map": "/static/js/main.7c9552b2.js.map",
-    "787.cc50d865.chunk.js.map": "/static/js/787.cc50d865.chunk.js.map"
+    "main.css": "/satodd.com/static/css/main.8ad14902.css",
+    "main.js": "/satodd.com/static/js/main.37c5e14a.js",
+    "static/js/787.cc50d865.chunk.js": "/satodd.com/static/js/787.cc50d865.chunk.js",
+    "index.html": "/satodd.com/index.html",
+    "main.8ad14902.css.map": "/satodd.com/static/css/main.8ad14902.css.map",
+    "main.37c5e14a.js.map": "/satodd.com/static/js/main.37c5e14a.js.map",
+    "787.cc50d865.chunk.js.map": "/satodd.com/static/js/787.cc50d865.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ad14902.css",
-    "static/js/main.7c9552b2.js"
+    "static/js/main.37c5e14a.js"
   ]
 }
