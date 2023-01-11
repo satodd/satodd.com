@@ -1,7 +1,7 @@
 {
   "name": "satodd",
   "version": "0.1.0",
-  "homepage": "https://satodd.github.io",
+  "homepage": "https://satodd.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -15,7 +15,6 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -46,9 +45,17 @@
   },
   "devDependencies": {
     "@types/react-helmet": "^6.1.6",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.31.0",
+    "eslint-config-standard-with-typescript": "^26.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.0",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.20",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4"
   }
 }
