@@ -13,7 +13,7 @@ function App() {
       <Head />
       <div className='relative h-screen w-full overflow-hidden bg-coral'>
         <Background />
-        <header className='absolute top-0 p-8 bg-white'>
+        <header className='absolute top-0 p-8 bg-white shadow-lg'>
           <h1 className="pb-1 text-6xl text-coral font-bold">Sarah Todd</h1>
           <p className='mb-4 text-xl'>Frontend Developer</p>
           <p className='mb-4'> Now looking for work!</p>

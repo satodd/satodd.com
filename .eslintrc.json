@@ -4,7 +4,9 @@
       "es2021": true
     },
     "extends": [
-      "airbnb-base"
+      // "airbnb-base",
+      "plugin:react/recommended",
+      "standard-with-typescript"
     ],
     "overrides": [
       {
@@ -15,11 +17,11 @@
         // If you don't want to extend any rules, you don't need an `extends` attribute.
         "extends": [
           "plugin:@typescript-eslint/recommended",
-          "plugin:@typescript-eslint/recommended-requiring-type-checking",
+          "plugin:@typescript-eslint/recommended-requiring-type-checking"
         ],
   
         "parserOptions": {
-          "project": ["./tsconfig.json"], // Specify it only for TypeScript files
+          "project": ["./tsconfig.json"] // Specify it only for TypeScript files
         }
       }
     ],
@@ -33,9 +35,7 @@
       "react"
     ],
     "rules": {
-      // we use 2 spaces to indent our code
       "indent": ["error", 2],
-      // we want to avoid extraneous spaces
       "no-multi-spaces": ["error"]
     }
 }
