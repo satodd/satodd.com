@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-export default function GitlabIcon() {
+export default function GitlabIcon () {
   return (
     <svg
       id="Layer_1"
@@ -11,7 +11,7 @@ export default function GitlabIcon() {
       viewBox="0 0 122.88 113.2"
       xmlSpace="preserve"
     >
-      <style>{".st0{fill:#ec672a}.st1{fill:#dd3e2a}.st2{fill:#f6a420}"}</style>
+      <style>{'.st0{fill:#ec672a}.st1{fill:#dd3e2a}.st2{fill:#f6a420}'}</style>
       <path
         className="st0"
         d="m122.65 64.72-6.89-21.15-13.61-41.96c-.7-2.15-3.74-2.15-4.47 0L84.06 43.54H38.81L25.19 1.61c-.7-2.15-3.74-2.15-4.47 0L7.13 43.54.24 64.72c-.62 1.92.05 4.04 1.7 5.24l59.5 43.23 59.5-43.23a4.69 4.69 0 0 0 1.71-5.24z"

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import { Helmet } from 'react-helmet'
 
-function Head() {
+function Head () {
   return (
     <>
       <Helmet>
@@ -29,7 +29,7 @@ function Head() {
         <meta name="twitter:image" content="https://satodd.com/static/sarah_pic.jpeg" />
       </Helmet>
     </>
-  );
+  )
 }
 
-export default Head;
+export default Head

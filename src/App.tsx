@@ -1,13 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-import './App.css';
-import Background from './components/Background';
-import Head from './components/Head';
-import GitlabIcon from './components/svgs/GitlabIcon';
-import LinkedinIcon from './components/svgs/LinkedinIcon';
-import MailIcon from './components/svgs/MailIcon';
+import './App.css'
+import Background from './components/Background'
+import Head from './components/Head'
+import GitlabIcon from './components/svgs/GitlabIcon'
+import LinkedinIcon from './components/svgs/LinkedinIcon'
+import MailIcon from './components/svgs/MailIcon'
 
-function App() {
+function App () {
   return (
     <>
       <Head />
@@ -31,7 +31,7 @@ function App() {
         </header>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
