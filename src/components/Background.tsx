@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react'
 
+// https://coolors.co/227c9d-17c3b2-ffcb77-fef9ef-fe6d73
+
 function Background () {
   useEffect(() => {
-    const num = 25
+    const num = 55
 
     for (let i = 0; i < num; i++) {
       const xPos = Math.floor((Math.random() * 100) + 1)
