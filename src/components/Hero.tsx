@@ -12,7 +12,7 @@ function Hero () {
       <div className='h-full w-full flex justify-center items-center border-b-8 border-[#2E83AF]'>
         <header className='z-50 p-8 md:py-24 md:px-16 bg-white shadow-lg bg-opacity-90 border-4 border-[#2E83AF]'>
           <h1 className="pb-1 text-6xl lg:text-8xl text-coral font-bold">Sarah Todd</h1>
-          <p className='mb-10 text-2xl lg:text-4xl'>Frontend Developer</p>
+          <p className='mb-10 text-2xl lg:text-4xl text-off-black'>Frontend Developer</p>
           <div className="flex flex-col md:flex-row md:items-center">
             <p className='mb-2 md:mb-0 lg:mr-4 text-lg lg:text-xl'> Now looking for work!</p>
             <div className='flex flex-row items-center gap-x-3'>

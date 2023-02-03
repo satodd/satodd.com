@@ -9,7 +9,7 @@ function Background () {
     for (let i = 0; i < num; i++) {
       const xPos = Math.floor((Math.random() * 100) + 1)
       const speed = Math.floor((Math.random() * 50) + 10)
-      const diameter = Math.floor((Math.random() * 50) + 5)
+      const diameter = Math.floor((Math.random() * 100) + 5)
 
       const background = document.getElementById('background')
       if (background != null) {

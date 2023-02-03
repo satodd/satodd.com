@@ -6,7 +6,7 @@ interface Props {
 
 function TechnologyCard ({ title }: Props) {
   return (
-    <div className='p-4 border shadow-sm hover:scale-110 transition duration-150'>
+    <div className='p-4 border shadow-sm hover:border-coral transition duration-150 rounded-sm'>
       {title}
     </div>
   )
