@@ -6,7 +6,7 @@ import MailIcon from './svgs/MailIcon'
 function Footer () {
   return (
     <footer>
-      <div className='relative w-full py-6 overflow-hidden bg-coral shadow-sm'>
+      <div className='relative w-full py-6 overflow-hidden bg-coral shadow-sm border-t-8 border-custom-blue'>
         <div className='container px-8 mx-auto flex justify-between items-center'>
           <div className='text-2xl font-bold text-white'>Sarah Todd</div>
           <div className='flex flex-row gap-4'>
